@@ -56,4 +56,16 @@ public class StrokeTextView extends android.support.v7.widget.AppCompatTextView 
 
         super.onDraw(canvas);
     }
-}  
+
+    public void setStroke(boolean stroke) {
+        isStroke = stroke;
+    }
+
+    public void setStrokeColor(int strokeColor) {
+        this.strokeColor = strokeColor;
+    }
+
+    public void setStrokeWidth(float strokeWidth) {
+        this.strokeWidth = strokeWidth;
+    }
+}

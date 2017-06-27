@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d42dd4"
     tools:context="com.kerrel.stroketextview.StrokeTextViewActivity">
 
+
     <com.kerrel.libstroketextview.StrokeTextView
-        android:id="@+id/CustomTextView"
-        android:layout_width="fill_parent"
+        android:id="@+id/strokeTextView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:text="Hello World"
-        android:textColor="#ffffffff"
-        st:textStroke="true"
-        st:textStrokeColor="#ffff0000"
-        st:textStrokeWidth="7.0" />
+        android:gravity="center"
+        android:text="SAT"
+        android:textColor="#000" />
 
 
 </android.support.constraint.ConstraintLayout>
